@@ -1,7 +1,7 @@
 {
-  "name": "xanta-whatsapp-bot",
+  "name": "taxtech-task",
   "version": "1.0.0",
-  "description": "a bot that simplifiers and automatics the process of learning about things",
+  "description": "an app that manager's task and reminds the users of their task",
   "main": "server.ts",
   "scripts": {
     "test": "jest",
