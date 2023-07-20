@@ -1,9 +1,9 @@
 import express from 'express'
 import bodyParser from 'body-parser';
-import { connection } from './database/connection'
+import { connection } from './src/database/connection'
 
-import combineRouter from './routes/api';
-import defaults from './config/default';
+import combineRouter from './src/routes/api';
+import defaults from './src/config/default';
 
 const app = express()
 
