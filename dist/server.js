@@ -5,9 +5,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const body_parser_1 = __importDefault(require("body-parser"));
-const connection_1 = require("./src/database/connection");
-const api_1 = __importDefault(require("./src/routes/api"));
-const default_1 = __importDefault(require("./src/config/default"));
+const connection_1 = require("./database/connection");
+const api_1 = __importDefault(require("./routes/api"));
+const default_1 = __importDefault(require("./config/default"));
 const app = (0, express_1.default)();
 if ((0, connection_1.connection)()) {
     // app.use(express.json());
@@ -20,4 +20,3 @@ if ((0, connection_1.connection)()) {
 else {
     console.error('database not connected');
 }
-//# sourceMappingURL=server.js.map
