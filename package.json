@@ -5,9 +5,9 @@
   "main": "server.ts",
   "scripts": {
     "test": "jest",
-    "dev": "ts-node-dev --poll src/server.ts",
-    "build": "rimraf dist/ && tsc",
-    "start": "npm run build && node dist/server.js"
+    "dev": "ts-node-dev src/server.ts",
+    "build": "npx tsc",
+    "start": "node ./dist/server.js"
   },
   "author": "xanta-codes",
   "license": "MIT",
