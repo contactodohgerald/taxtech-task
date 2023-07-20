@@ -2,11 +2,11 @@
   "name": "taxtech-task",
   "version": "1.0.0",
   "description": "an app that manager's task and reminds the users of their task",
-  "main": "server.ts",
+  "main": "src/server.ts",
   "scripts": {
     "test": "jest",
     "dev": "ts-node-dev src/server.ts",
-    "build": "npx tsc",
+    "build": "tsc",
     "start": "node ./dist/server.js"
   },
   "author": "xanta-codes",
